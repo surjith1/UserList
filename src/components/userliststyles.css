@@ -1,0 +1,44 @@
+.grid-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap: 2rem;
+}
+.user-list-page .card-img-top {
+    /* max-height: 450px; */
+}
+.summary {
+    display: flex;
+    justify-content: space-around;
+}
+.user-list-page .card-body {
+    /* position: sticky;
+    bottom: 25px; */
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 0 5px 0px #0b356e;
+}
+.user-view-page h5.card-title {
+    text-transform: capitalize;
+}
+.title-header {
+    background-color: #06c;
+    color: white;
+    padding: 1rem;
+    border-radius: 0 1rem 0 1rem;
+}
+
+.user-view-page .card-img-top {
+    border-radius: 0 0 50% 50%;
+    box-shadow: 0 5px 6px 5px #ccc;
+}
+.user-view-page .card {
+    border:none;
+}
+.user-view-page a {
+    color: black;
+    text-decoration: none;
+}
+.card-header:first-child {
+    background-color: #06c;
+    color: white;
+}
